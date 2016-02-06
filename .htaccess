@@ -1,0 +1,3 @@
+RewriteEngine  on
+RewriteBase    /gists/
+RewriteRule    "^(.+)/(.+)?$"  "index.php?gist_id=$1&filename=$2" [L]
